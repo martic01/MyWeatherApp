@@ -33,8 +33,8 @@ module.exports = {
       outputReport: false,
     }),
     new HtmlWebpackPlugin({
-      title: 'Shape Tracker',
-      template: './src/index.html',
+      title: 'weatherapp',
+      template: './index.html',
       inject: 'body'
     }),
     new Dotenv()
